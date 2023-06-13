@@ -1,0 +1,36 @@
+@use '../variables' as var;
+@use "header";
+@use "first-view";
+@use "content";
+@use "index-page";
+@use 'cursor';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 21px;
+}
+
+body {
+    margin: 0;
+    color: var.$clr-main;
+    background-color: var.$clr-bg;
+}
+
+#main-content {
+    width: 100%;
+    margin-left: auto;
+    margin-top: -5vh;
+    padding: 0 72px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+}
+
+/* ―タイトルエリアここに書く― */
+.title-area {
+    display: none;
+}

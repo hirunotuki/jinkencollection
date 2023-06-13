@@ -1,0 +1,25 @@
+.header2 {
+    margin: 24px 24px 0;
+    height: 72px;
+    border-radius: 21px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(255, 254, 249, 0.45);
+    box-shadow: 0px 3px 9px 0 rgba(51, 49, 50, 0.27);
+    backdrop-filter: blur(6px);
+}
+
+.header2-h1 {
+    height: 42px;
+    margin-left: 30px;
+}
+
+.header2-h1 a img {
+    height: 100%;
+}
